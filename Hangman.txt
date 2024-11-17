@@ -1,0 +1,58 @@
+1. words and hints ---
+const wordList = [
+    { word: "javascript", 
+      hint: "A popular programming language for the web" },
+    { word: "developer", 
+      hint: "A person who writes code" },
+    { word: "function", 
+      hint: "Reusable block of code" },
+    { word: "variable", 
+      hint: "A container for storing data values" },
+    { word: "browser",
+      hint: "Software used to browse the internet" },
+    { word: "algorithm", 
+      hint: "A set of steps to solve a problem" },
+    { word: "debugging",
+      hint: "The process of fixing errors in code" }
+];
+
+
+2. select a random word and its hint
+const randomIndex = Math.floor(Math.random() * wordList.length);
+    return wordList[randomIndex];
+
+3.function to generate the hidden word display with underscores
+ 	for loop that contains characters
+		if --guessedcharacter includes character --hidden character displays
+		else --_
+	
+4.function to initialize the variables
+5.function to get and validate user input
+	5.1 playerGuess
+	if player===null 
+		confirm and alert are you want to quit the game
+		alert--game cancelled. Goodbye
+		
+	else --continue --
+
+		 if the user input an empty
+			alert--enter a letter it cannot be a empty
+	validate the input ---if
+6. update the game with the player's guess
+	6.1--if the letter guessed already display you have guessed letter correctly
+
+		6.1.1--if the word is correct --good job, The letter guessed one is correct
+			else --sorry the letter is not in the word
+		check if the player has won or not
+7. Intialize the game
+	7.1 while loop runs player has remaining attempts
+		if player has made enough incorrected guesses -- 
+		display the hint --
+		prompt --
+	7.2 exit the game if the user cancel
+	7.3 check --if = player =won
+	7.4 if = player =lost
+8.Ask the player if they want to play again
+	8.1 if = confirm = Do you want to play again?
+	    else = thanks for playing
+9.start the game
